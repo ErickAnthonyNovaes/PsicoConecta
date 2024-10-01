@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.jost-jost {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e4e4e4;
+    font-family: "Jost";
+}
+
+.header {
+    background-color: #fff;
+    height: 176px;
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    margin-left: 65px;
+}
+
+.login {
+    margin-top: 60px;
+}
+
+.login:hover {
+    cursor: pointer;
+}
+
+.img-container {
+    height: 476px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 476px;
+}
+
+.description-users {
+    background-color: #e4e4e49a;
+    width: 1100px;
+    position: absolute;
+    top: 47%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.description-users p {
+    font-size: 36px;
+    margin: 10px;
+}
+
+.button-description-users {
+    position: absolute;
+    top: 76%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-color: #eaeaea;
+    border: 1px solid #000;
+    width: 363px;
+    height: 92px;
+    border-radius: 50px;
+}
+
+.button-description-users:hover {
+    background-color: #469cff8c;
+    border: 2px solid #006FFF;
+    cursor: pointer;
+    color: #fff;
+}
+
+.description-psic {
+    background-color: #fff;
+    height: 372px;
+}
+
+.description {
+    position: absolute;
+    margin-top: 50px;
+    height: 300px;
+}
+
+.title {
+    font-size: 48px;
+    margin-left: 70px;
+}
+
+.description .text {
+    font-size: 32px;
+    font-weight: 300;
+    width: 60pc;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.img-psic {
+    margin-left: 1080px;
+    height: 100px;
+}
+
+.img-psic img {
+    margin-top: 60px;
+}
+
+.footer {
+    background-color: #292929;
+    height: 130px;
+}
+
+.logo-letter {
+    width: 100px;
+}
+
+.logo-letter img {
+    margin-top: 55px;
+    margin-left: 70px;
+}
+
+.nav1 {
+    margin-left: 1200px;
+    position: absolute;
+    left: 10%;
+    top: 145%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-footer img:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.jost-jost {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e4e4e4;
+    font-family: "Jost";
+    display: flex;
+}
+
+.login-user-container {
+    position: absolute;
+    top: 85%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+.button-user-make {
+    position: absolute;
+    font-size: 40px;
+    background-color: #0022ff7c;
+    border: 1px solid #3700FF;
+    width: 590px;
+    height: 92px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.button-user-enter {
+    position: absolute;
+    font-size: 40px;
+    background-color: #008cff8f;
+    border: 1px solid #0077FF;
+    width: 590px;
+    height: 92px;
+    border-radius: 50px;
+    margin-top: 150px;
+}
+
+.button-psic-make {
+    position: absolute;
+    top: 65%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-color: #00ff1181;
+    border: 1px solid #00B006;
+    width: 590px;
+    height: 92px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.button-psic-enter {
+    position: absolute;
+    top: 65%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-color: #86ffb896;
+    border: 1px solid #00C200;
+    width: 590px;
+    height: 92px;
+    border-radius: 50px;
+    margin-top: 150px;
+}
+
+.button-psic-enter:hover {
+    cursor: pointer;
+}
+
+.button-psic-make:hover {
+    cursor: pointer;
+}
+
+.button-user-enter:hover {
+    cursor: pointer;
+}
+
+.button-user-make:hover {
+    cursor: pointer;
+}
+
+.login-psic h1 {
+    position: absolute;
+    top: 54%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
