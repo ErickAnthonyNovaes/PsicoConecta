@@ -57,6 +57,7 @@ body {
     margin-top: 30px;
     display: flex;
     transition: 0.5s;
+    margin-bottom: 30px;
 }
 
 .header:hover {
@@ -84,20 +85,6 @@ body {
     cursor: pointer;
 }
 
-.logo-img {
-    margin: 0 auto;
-    width: 300px;
-    height: 250px;
-    margin-top: 20px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    margin-bottom: 20px;
-}
-
 .content-container {
     background-color: #fff;
     width: 100%;
@@ -117,30 +104,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-}
-
-.button-psic {
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 500px;
-}
-
-.button {
-    width: 500px;
-    height: 150px;
-    border-radius: 50pc;
-    font-size: 60px;
-    border: 2px solid #000;
-    background-color: #9090902c;
-    transition: 0.7s;
-    font-family: "Jost";
-}
-
-.button:hover {
-    background-color: rgba(117, 187, 230, 0.759);
-    cursor: pointer;
-    box-shadow: 0 8px 32px 0 rgba(0, 32, 81, 0.37);
 }
 
 .footer {

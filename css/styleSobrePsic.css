@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.jost-jost {
+    font-family: "Jost", arial;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(90, 90, 90);
+    display: flex;
+    flex-direction: column;
+}
+
+.color-container {
+    height: 100%;
+    width: 100%;
+    background-color:hsla(217,0%,0%,1);
+    background-image:
+    radial-gradient(at 60% 13%, hsla(158,74%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 9% 66%, hsla(203,69%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 89% 100%, hsla(235,77%,72%,1) 0px, transparent 50%);
+    background-size: 150% 150%;
+    animation: my_animation 10s ease infinite;
+}
+
+@keyframes my_animation {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    75% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.header {
+    width: 650px;
+    height: 60px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 30px;
+    display: flex;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+
+.header:hover {
+    box-shadow: 5px 5px 40px 5px #ababab;
+}
+
+.nav-box {
+    font-family: "Jost";
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.nav-box a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-box:hover {
+    cursor: pointer;
+}
+
+.content-container {
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+    position: relative;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: #00000096;
+    border-radius: 40px 40px 0 0;
+}
+
+.text-logo {
+    font-family: "Jost";
+    color: #fff;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 290px;
+    height: 200px;
+}
+
+.psychologist-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: "Jost";
+    margin-bottom: 30px;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h2 {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.pricing-info {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.session-pricing, .session-duration {
+    background-color: #e3f2fd;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.session-pricing span, .session-duration span {
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+
+.session-pricing span:last-child {
+    color: #388e3c;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.session-duration span:last-child {
+    color: #00796b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.share-button {
+    border: 2px solid #000;
+    background-color: #9090902c;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.share-button:hover {
+    background-color: rgba(151, 230, 117, 0.759);
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0 rgba(0, 32, 81, 0.37);
+}
+
+.consult-button {
+    border: 2px solid #000;
+    background-color: #9090902c;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.consult-button:hover {
+    background-color: rgba(151, 230, 117, 0.759);
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0 rgba(0, 32, 81, 0.37);
+}
+
+.biography {
+    margin-top: 20px;
+}
+
+.biography h3 {
+    font-size: 60px;
+    color: #388e3c;
+    text-align: center;
+}
+
+.biography p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pricing-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .session-pricing, .session-duration {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
