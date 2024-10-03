@@ -123,3 +123,130 @@ body {
     width: 240px;
     height: 200px;
 }
+
+.config-black-mode {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px
+}
+
+.config-black-mode h1 {
+    font-family: "Jost";
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.config-black-mode button {
+    width: 500px;
+    height: 90px;
+    border-radius: 50pc;
+    font-size: 35px;
+    border: 2px solid #000;
+    background-color: #ffffff;
+    transition: 0.7s;
+    font-family: "Jost";
+    margin-left: 50px;
+}
+
+.config-black-mode button:hover {
+    background-color: rgba(103, 103, 104, 0.759);
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0 rgba(0, 32, 81, 0.37);
+    color: #fff;
+}
+
+.config-black-mode p {
+    color: #ababab;
+    font-size: 20px;
+    font-family: "Jost";
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.config-notification {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px
+}
+
+.config-notification h1 {
+    font-family: "Jost";
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.config-notification button {
+    width: 500px;
+    height: 90px;
+    border-radius: 50pc;
+    font-size: 35px;
+    border: 2px solid #000;
+    background-color: #00aa098a;
+    transition: 0.7s;
+    font-family: "Jost";
+    margin-left: 50px;
+}
+
+.config-notification button:hover {
+    background-color: rgba(173, 0, 0, 0.759);
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0 rgba(0, 32, 81, 0.37);
+}
+
+.config-notification p {
+    color: #ababab;
+    font-size: 20px;
+    font-family: "Jost";
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+@media (max-width: 915px) {
+    .header {
+        width: 350px;
+        margin-left: 30px;
+    }
+    
+    .nav-box {
+        font-size: 17px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .config-black-mode {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .config-black-mode h1 {
+        font-size: 40px;
+    }
+
+    .config-black-mode button {
+        width: 350px;
+        font-size: 30px;
+        margin: 0 auto;
+    }
+
+    .config-notification {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .config-notification h1 {
+        font-size: 40px;
+    }
+
+    .config-notification button {
+        width: 350px;
+        font-size: 30px;
+        margin: 0 auto;
+    }
+}

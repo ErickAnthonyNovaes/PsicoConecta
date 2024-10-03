@@ -362,3 +362,84 @@ body {
     margin: 0 auto;
     width: 300px;
 }
+
+@media (max-width: 915px) {
+    .header {
+        width: 350px;
+        margin-left: 30px;
+    }
+    
+    .nav-box {
+        font-size: 17px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .searchInput {
+        width: 250px;
+        font-size: 20px;
+    }
+    
+    .estados {
+        width: 300px;
+    }
+
+    .localizacao {
+        width: 300px;
+    }
+
+    .psychologist-horizontal {
+        padding: 15px;
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .psychologist-profile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .profile-photo {
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .pricing-info {
+        margin-top: 5px;
+    }
+    
+    .pricing, .duration {
+        padding: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .profile-button {
+        padding: 10px;
+        margin-top: 30px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    
+    .psychologist-schedule {
+        width: 100%;
+        padding-left: 0;
+        border-left: none;
+    }
+    
+    .schedule-dates, .available-time {
+        gap: 16px;
+    }
+    
+    .schedule-button {
+        width: 275px;
+        margin-top: 20px;
+        margin-left: -3px;
+    } 
+}

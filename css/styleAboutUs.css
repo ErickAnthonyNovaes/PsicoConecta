@@ -123,3 +123,22 @@ body {
     width: 240px;
     height: 200px;
 }
+
+@media (max-width: 915px) {
+    .header {
+        width: 350px;
+        margin-left: 30px;
+    }
+    
+    .nav-box {
+        font-size: 17px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .description {
+        width: 300px;
+        font-size: 19px;
+    }
+}

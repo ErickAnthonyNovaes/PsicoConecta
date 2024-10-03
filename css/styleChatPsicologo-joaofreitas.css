@@ -245,7 +245,19 @@ body {
     box-shadow: 0 8px 32px 0 rgba(0, 32, 81, 0.37);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 915px) {
+    .header {
+        width: 350px;
+        margin-left: 30px;
+    }
+    
+    .nav-box {
+        font-size: 17px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
     .chat-container {
         width: 100%;
         height: 100%;
@@ -254,5 +266,9 @@ body {
 
     .chat-box {
         height: calc(100vh - 150px);
+    }
+
+    .footer {
+        margin-top: 30px;
     }
 }
